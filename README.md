@@ -1,4 +1,5 @@
 # (collective) cyber dreams
+## Prototype, Work In Progress
 
 ## analyze your dreams with a python script, the interpretation is done according to Jung with the help of Chatgpt but should end up in the ability to writes ones one interpretation by understanding Symbols, texture of dreams and learn to put them into personal context.
 
