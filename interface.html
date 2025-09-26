@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            background-color: #f0f0f0; /* Light gray background */
+            color: black; /* Black text */
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Journal</title>
+    <script>
+        let dreamJournal = { dreams: [] };
+        
+        function addDream() {
+            let date = document.getElementById('date').value;
+            let menstruation = document.getElementById('menstruation').checked;
+            let moon = document.getElementById('moon').value;
+            let dream = document.getElementById('dream').value;
+            let symbols = document.getElementById('symbols').value.split(',').map(s => s.trim());
+            let emotions = document.getElementById('emotions').value.split(',').map(e => e.trim());
+            let personalComments = document.getElementById('personalComments').value;
+            let personalInterpretation = document.getElementById('personalInterpretation').value;
+            let interpretationByGPT = document.getElementById('interpretationByGPT').value;
+            
+            let newDream = {
+                date,
+                menstruation,
+                moon,
+                dream,
+                symbols,
+                emotions,
+                personal_comments: personalComments,
+                personal_interpretation: personalInterpretation,
+                interpretation_by_GPT: interpretationByGPT
+            };
+            
+            dreamJournal.dreams.push(newDream);
+            updateJournalDisplay();
+        }
+        
+        function updateJournalDisplay() {
+            document.getElementById('journalOutput').textContent = JSON.stringify(dreamJournal, null, 2);
+        }
+        
+        function saveJournal() {
+            const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(dreamJournal, null, 2));
+            const downloadAnchor = document.createElement('a');
+            downloadAnchor.setAttribute("href", dataStr);
+            downloadAnchor.setAttribute("download", "dream_journal.json");
+            document.body.appendChild(downloadAnchor);
+            downloadAnchor.click();
+            document.body.removeChild(downloadAnchor);
+        }
+        
+        function loadJournal(event) {
+            const file = event.target.files[0];
+            const reader = new FileReader();
+            reader.onload = function(event) {
+                dreamJournal = JSON.parse(event.target.result);
+                updateJournalDisplay();
+            };
+            reader.readAsText(file);
+        }
+    </script>
+</head>
+<body>
+    <h2>Dream Journal Entry</h2>
+    <label>Date: <input type="date" id="date"></label><br>
+    <label>Menstruation: <input type="checkbox" id="menstruation"></label><br>
+    <label>Moon Phase: <input type="text" id="moon"></label><br>
+    <label>Dream: <textarea id="dream"></textarea></label><br>
+    <label>Symbols (comma separated): <input type="text" id="symbols"></label><br>
+    <label>Emotions (comma separated): <input type="text" id="emotions"></label><br>
+    <label>Personal Comments: <textarea id="personalComments"></textarea></label><br>
+    <label>Personal Interpretation: <textarea id="personalInterpretation"></textarea></label><br>
+    <label>GPT Interpretation: <textarea id="interpretationByGPT"></textarea></label><br>
+    <button onclick="addDream()">Add Dream</button>
+    <button onclick="saveJournal()">Save Journal</button>
+    <input type="file" id="loadFile" onchange="loadJournal(event)">
+    
+    <h3>Dream Journal JSON</h3>
+    <pre id="journalOutput">{ "dreams": [] }</pre>
+</body>
+</html>
