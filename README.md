@@ -1,6 +1,3 @@
-# cyber_dreams
-Interdisciplinary art projects that aims to analyze dreams in a private or collective manner. 
-
 # (collective) cyber dreams
 
 ## analyze your dreams with a python script, the interpretation is done according to Jung with the help of Chatgpt but should end up in the ability to writes ones one interpretation by understanding Symbols, texture of dreams and learn to put them into personal context.
@@ -23,3 +20,4 @@ Personal Interpretation:
 Chat Gpt according to Jung:
 
 # add symboly dictonary and learn how to connect it
+
