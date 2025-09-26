@@ -1,9 +1,9 @@
 {
   "dreams": [
     {
-      "date": "2025-03-20",
-      "title": "The Winter Tree Growing",
-      "description": "A branch of a winter tree was already having some green on top and a tiny closed pinkish blossom. I was kind of surprised—it grew so fast, and I didn’t expect it. It was cloudy, and I seemed to be laying on the ground looking toward the sky.",
+      "date": "yyyy-mm-dd",
+      "title": "Example1",
+      "description": "Your dream 1",
       "symbols": {
         "tree": "Unexpected transformation, renewal, personal growth",
         "cloudy sky": "Uncertainty, introspection, hidden clarity"
@@ -13,56 +13,44 @@
       "emotions": ["surprise", "wonder"]
     },
     {
-      "date": "2025-03-22",
-      "title": "Twisted Fingers & Reality Shift",
-      "description": "Something was twisted. It seemed like finger positions or mudras were pointed the wrong way, so a twisted reality could exist. It seemed to reflect male-female roles. Looking closely, I felt like something was magically revealing how twisted it was, entangling my thoughts. It made me feel like I had believed the wrong stories, and it seemed to be about the hands and fingers.",
+      "date": "yyyy-mm-dd",
+      "title": "Example2",
+      "description": "Your dream 2",
       "symbols": {
-        "twisted fingers": "Distorted beliefs, hidden truths",
-        "twisted reality": "Seeing through illusion, confronting subconscious distortions"
+        "Symbol 1": "Meaning1, Meaning2",
+        "Symbol 2": "Meaning3, Meaning4"
       },
-      "interpretation": "Your psyche might be deconstructing ingrained beliefs about identity and gender roles.",
-      "personal_reflection": "Realized how much my perspective on certain things has been shifting.",
-      "emotions": ["confusion", "revelation"]
+      "interpretation": "Your Interpretation.",
+      "personal_reflection": "",
+      "emotions": ["emotion1", "emotion2"]
     },
     {
-      "date": "2025-03-23",
-      "title": "Garden, Being Used, Something is Twisted",
-      "description": "I was in a garden, and it was about the garden itself. I planted something but felt used by men, as if it was a law that things worked this way. However, it also felt twisted to me. I don’t have a clear image of the garden, but I remember it was about a garden and me feeling used in a way.",
+      "date": "yyyy-mm-dd",
+      "title": "Example3",
+      "description": "Your dream 3",
       "symbols": {
-        "garden": "Inner work and personal cultivation",
-        "twisted reality": "Seeing through illusion, confronting subconscious distortions"
+        "Symbol 1": "Meaning4",
+        "Symbol 2": "Meaning5, Meaning6"
       },
-      "interpretation": "The garden symbolizes personal growth and inner development, while planting represents nurturing and investment. However, the feeling of being used suggests an imbalance—perhaps societal expectations or relational dynamics that feel unfair. The ‘twisted’ sensation aligns with recurring themes in past dreams, pointing to subconscious realizations of distorted beliefs. This dream may be inviting you to question ingrained roles and seek a more balanced exchange of energy in your waking life.",
-      "personal_reflection": "Realized how much my perspective on certain things has been shifting.",
+      "interpretation": "Your Interpretation",
+      "personal_reflection": "",
       "emotions": ["confusion", "feeling used", "having an insight"],
-      "personal_comments": "Started EDMR on Friday, took a bit A*** on Wednesday."
+      "personal_comments": "Started Yoga on Friday"
     },
     {
-      "date": "2025-03-24",
-      "title": "Flower",
-      "description": "It was about a flower, it seemed to be a symbol of changing things. I was curious and it was about female and male roles.",
+      "date": "yyyy-mm-dd",
+      "title": "Example4",
+      "description": "Your Dream",
       "symbols": {
         "flower": "add",
         "male": "add",
         "female": "add"
       },
       "interpretation": "",
-      "personal_reflection": "Repeating symbol interesting. Previous day, something is transforming in a lively, healthy way (Tina).",
-      "emotions": ["surprise", "curiosity", "having an insight"],
-      "personal_comments": "Menstruation started."
-    },
-    {
-      "date": "2025-03-26",
-      "title": "Ehakterina, Mutter, Kind",
-      "description": "I was in a garden, and it was about the garden itself. I planted something but felt used by men, as if it was a law that things worked this way. However, it also felt twisted to me. I don’t have a clear image of the garden, but I remember it was about a garden and me feeling used in a way.",
-      "symbols": {
-        "mother": "",
-        "child": ""
-      },
-      "interpretation": "Motherhood and child relation seemed friendly, making peace with female role, the Great Mother archetype? (Tina)",
       "personal_reflection": "",
-      "emotions": ["surprise", "curious", "funny"],
-      "personal_comments": "Met Ekat Tuesday Pub Quiz."
+      "emotions": ["surprise", "curiosity", "emotion7"],
+      "personal_comments": "Menstruation started."
     }
   ]
 }
+
