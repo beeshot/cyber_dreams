@@ -1,7 +1,7 @@
 # (collective) cyber dreams
 # Digital Dream Journal for download
 
-The goal is to create an web-browser based interface that enables the user to happily share their dreams in a structured way. The data is stored privately and can be shared later on for art projects and research anomously. 
+The goal is to create an web-browser or Client interface/giu that enables users to share their dreams in a structured way. The data is stored privately and can be shared later on for art projects and research anomously. 
 
 The interface and Python Script need to be adjusted. The data structure can be improved. The Analysis needs to be improved and alighned with the outcome of the interface. The interface can be also improved in terms of design, usability and user experience. 
 
